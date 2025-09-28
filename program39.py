@@ -1,0 +1,6 @@
+info = open("./user.txt","r")
+print(info)
+print(f"name of file : {info.name}")
+print(f"mode of file : {info.mode}")
+print(f"Encoding of file : {info.encoding}")
+print(f"Readable : {info.readable}")
